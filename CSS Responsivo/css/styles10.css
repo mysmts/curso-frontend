@@ -1,4 +1,4 @@
-* {
+ {
     margin: 0;
     padding: 0;
     box-sizing: none;
@@ -354,8 +354,5 @@ footer {
     .container-flex li h3 {
         font-size: 32px;
     }
-
-}
-
 
 }
