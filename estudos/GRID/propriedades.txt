@@ -1,0 +1,36 @@
+9 propriedades fundamentais:
+
+*6 aplicadas em container*
+
+- align-content
+- justify-content
+- place-content
+- align-itemns
+- justify-itemns
+- place-itemns
+
+**3 aplicadas em items**
+
+- align-self
+- justify-self
+- place-self
+
+Então podemos separar em 3 grupos:
+align, justify, place
+
+E cada um deles irá observar ou o
+
+- conteúdo doelemente 'content'
+- items do elemento 'items'
+- o próprio elemento 'self'
+
+##Todo grid é comosto de 2 principais grupos:
+'container: o pai' e 'itemns: o(s) filhos'
+
+### CONTAINER (pai)
+
+- display: grid;
+- grid-template;
+ - grid-template-columns;
+ - grid-template-rows;
+ - grid-template-areas;
